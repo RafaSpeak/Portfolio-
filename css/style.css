@@ -261,7 +261,7 @@ section.topo-do-site .flex {
     font-size: 15px;
     font-weight: 700;
     color: black;
-    background-color: darkviolet;
+    background-color: rgb(221, 219, 222);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -388,13 +388,6 @@ section.formulario {
     padding: 80px 4%;
 }
 
-form input, form textarea:-internal-autofill-selected {
-    appearance: menulist-button;
-    background-image: none !important;
-    background-color: -internal-light-dark(rgb(57, 105, 189), rgba(70, 90, 126, 0.4)) !important;
-    color: fieldtext !important;
-}
-
 form{
     max-width: 500px;
     margin: 0 auto;
@@ -437,7 +430,7 @@ form .btn-enviar {
 form .btn-enviar input {
     width: 120px;
     padding: 10px 15px;
-    background-color: darkviolet;
+    background-color: rgb(221, 219, 222);
     color: rgb(14, 13, 13);
     font-weight: 700;
     cursor: pointer;
@@ -445,7 +438,7 @@ form .btn-enviar input {
 }
 
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px darkviolet;
+    box-shadow: 0px 0px 8px rgb(221, 219, 222);
     transform: scale(1.05);
 }
 
